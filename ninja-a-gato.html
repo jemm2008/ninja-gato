@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+    <style>
+        img {
+            display: block;
+            margin-top: 1px;
+            margin-left: 150px;
+        }
+    </style>
+
+    <!-- MI CÓDIGO JQUERY VA ADENTRO DE LA FUNCIÓN DOCUMENT READY -->
+    <script>
+        $('document').ready(function() {
+            
+            $('.imgh').hide();
+
+            $('.img1').click(function(){
+                $('.img1').toggle();
+            })
+            
+            $('.img2').click(function(){
+                $('.img2').toggle();
+            })
+
+            $('.img3').click(function(){
+                $('.img3').toggle();
+            })
+
+            $('.img4').click(function(){
+                $('.img4').toggle();
+            })
+
+            $('.img5').click(function(){
+                $('.img5').toggle();
+            })
+
+        });
+    </script>
+    <title>Ninja a Gato</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+        
+        <h1>Actividad: De Ninja a Gato</h1>
+        <h5 class="mb-5">(Hacer Click en cualquier parte de la Imagen)</h5>
+
+        <img class="img1 imgh" src="img/cat0.png" alt="">
+        <img class="img1" src="img/ninja0.png" alt="">
+        <img class="img2" src="img/cat1.png" alt="">
+        <img class="img2 imgh" src="img/ninja1.png" alt="">
+        <img class="img3 imgh" src="img/cat2.png" alt="">
+        <img class="img3" src="img/ninja2.png" alt="">
+        <img class="img4" src="img/cat3.png" alt="">
+        <img class="img4 imgh" src="img/ninja3.png" alt="">
+        <img class="img5 imgh" src="img/cat4.png" alt="">
+        <img class="img5" src="img/ninja4.png" alt="">
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
